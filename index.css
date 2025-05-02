@@ -93,11 +93,74 @@ nav {
   border-radius: 18px;
   border: 2px solid #85c742;
   padding: 10px 10px 10px 10px ;
-
 }
 
 .tags {
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   height: 30px;
   gap: 15px;
+  scrollbar-width: none;
+  overflow-x: scroll;
+  margin-right: 15px;
+  border-bottom: 2px solid gainsboro;
 }
+.tags button {
+  margin-bottom: 10px;
+  gap: 50px;
+}
+
+.btn-one {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-family: rubik;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.btn-all {
+  background-color: rgba(214, 224, 234, 1);
+  border: none;
+  font-family: rubik;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 400;
+  color: rgba(73, 90,106,1);
+}
+
+.btn-live {
+  font-family: rubik;
+  font-size: larger;
+  font-weight: 400;
+  color: rgba(73, 90,106,1);
+  border: none;
+  background-color: red;
+}
+
+.btn-ufc {
+  background-color: red;
+  font-family: rubik;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 10px;
+  color: rgba(73, 90,106,1);
+  border: none;
+}
+
+.btn-all:hover {
+  background-color: rgba(73, 90,106,1);
+  color: white;
+}
+
+.btn-ufc:hover {
+  background-color: rgba(73, 90,106,1);
+  color: white;
+
+}
+.btn-live:hover {
+  background-color: rgba(73, 90,106,1);
+  color: white;
+}
+
