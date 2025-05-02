@@ -1,0 +1,56 @@
+body {
+  margin: 5px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px solid gainsboro;
+  border-bottom: 2px solid gainsboro;
+  height: 45px;
+}
+
+.left-side {
+  display: flex;
+  gap: 10px;
+}
+
+.left-side button {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dash {
+  height: 25px;
+}
+
+.rumble {
+  height: 30px;
+}
+.flash {
+  height: 15px;
+}
+
+.search-input {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  flex-grow: 1;
+  border: 2px solid #e4e8ec;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 10px;
+}
+
+.right-side {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+
+}
+
+.addfree
